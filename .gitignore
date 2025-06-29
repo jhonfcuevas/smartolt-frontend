@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+dist/
+build/
+.vite/
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System
+.DS_Store
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+**/.docker/
+
+# Optional: Linux/MacOS swap/temp files
+*~
+*.swp
+*.tmp
